@@ -1,4 +1,4 @@
-button {
+.btn-standard{
   background-color: #f57d00;
   border: 0;
   padding: 8px;
@@ -8,7 +8,7 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.btn-standard:hover {
   color: #f57d00;
   background-color: black;
 }

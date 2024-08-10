@@ -1,4 +1,6 @@
+import Button from "../button/button";
 import "./header.css";
+
 
 export default function Header(){
   return(
@@ -12,7 +14,7 @@ export default function Header(){
           <li>Information</li>
           <li>Register</li>
           <li>
-            <button>Log in</button>
+            <Button title="Log in" />
           </li>
         </ul>
       </nav>

@@ -28,18 +28,3 @@ header nav ul li:hover {
   color: #f57d00;
   user-select: none;
 }
-
-header nav ul li button {
-  background-color: #f57d00;
-  border: 0;
-  padding: 8px;
-  border-radius: 3px;
-  color: #fff;
-  transition: 0.3s ease all;
-  cursor: pointer;
-}
-
-header nav ul li button:hover {
-  color: #f57d00;
-  background-color: black;
-}

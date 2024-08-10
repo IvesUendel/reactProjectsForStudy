@@ -1,0 +1,45 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+header h1 {
+  color: #f57d00;
+  font-family: "inter";
+  font-weight: 900;
+}
+
+header nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  align-items: center;
+}
+
+header nav ul li {
+  cursor: pointer;
+  transition: 0.3s ease all;
+}
+
+header nav ul li:hover {
+  cursor: pointer;
+  color: #f57d00;
+  user-select: none;
+}
+
+header nav ul li button {
+  background-color: #f57d00;
+  border: 0;
+  padding: 8px;
+  border-radius: 3px;
+  color: #fff;
+  transition: 0.3s ease all;
+  cursor: pointer;
+}
+
+header nav ul li button:hover {
+  color: #f57d00;
+  background-color: black;
+}

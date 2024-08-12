@@ -1,3 +1,5 @@
+import "./restaurantsCard.css";
+
 export default function RestaurantCard({title, category, color}){
   return (
     <div className="restaurant_card">

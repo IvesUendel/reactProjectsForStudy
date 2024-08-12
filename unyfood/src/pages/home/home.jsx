@@ -14,7 +14,7 @@ export default function Home(){
 
       <div className="home_container_category">
         <CardCategory title="Foods" color="#ed1c16"/>
-        <CardCategory title="Beers" color="#009432"/>
+        <CardCategory title="Drinks" color="#009432"/>
       </div>
 
       <Restaurants/>

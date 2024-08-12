@@ -19,7 +19,7 @@ export default function Restaurants(){
         }
       </div>
 
-        <button className="btn-standard">Ver mais</button>
+        <button className="btn-standard">See More</button>
     </div>
   )
 }
